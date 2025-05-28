@@ -1,0 +1,7 @@
+#root {
+  overflow: visible !important;
+}
+
+#root>div:not(.main-app-container, .loader-overlay) {
+  display: none !important;
+}
