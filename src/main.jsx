@@ -68,7 +68,7 @@ const AppWrapper = () => {
   }
   return (
     <AuthContext.Provider value={{ isAuthenticated, handleLogout }}>
-      <div style={{ minHeight: "100vh", margin: "0px auto" }}>
+      <div className="main-app-container" style={{ minHeight: "100vh", margin: "0px auto" }}>
         {shouldShowHeader && <Header />}
         <Routes>
           <Route path="/" element={<MainContainer />} />
