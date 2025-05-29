@@ -254,7 +254,7 @@ const LoginContainer = ({ onLoginSuccess }) => {
         {/* {message && (
           <div style={{ color: "red", marginTop: "10px" }}>{message}</div>
         )} */}
-        <div>
+        <div className="login-creds-info">
           <p><strong>Username:</strong> test@example.com</p>
           <p><strong>Password:</strong> testuser</p>
         </div>
