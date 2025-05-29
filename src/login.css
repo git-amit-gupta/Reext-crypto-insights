@@ -7,10 +7,31 @@
   color: rgba(255, 255, 255, 0.7);
   opacity: 1;
 }
+
 .x-btn-inner-default-small {
   color: white !important;
 }
 
-.x-keyboard-mode .x-form-checkbox-focus.x-form-checkbox-default{
+.x-keyboard-mode .x-form-checkbox-focus.x-form-checkbox-default {
   color: #FFA559 !important;
+}
+
+.login-creds-info {
+  width: 360px;
+  background: #ffffff;
+  margin-top: -50px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  z-index: 2;
+  color: #000;
+  font-family: 'Roboto';
+}
+
+.login-creds-info p {
+  margin: 0;
+}
+
+.login-creds-info p strong {
+  display: inline-block;
+  min-width: 70px;
 }
