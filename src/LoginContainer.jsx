@@ -153,6 +153,8 @@ const LoginContainer = ({ onLoginSuccess }) => {
                     allowBlank: false,
                     vytype: 'email',
                     validation: '',
+                    value: 'test@example.com',
+                    readOnly: true,
                     width: 300,
                     style: {
                       color: "#000000",
@@ -185,6 +187,8 @@ const LoginContainer = ({ onLoginSuccess }) => {
                     inputType: "password",
                     placeholder: "Enter your password",
                     allowBlank: false,
+                    readOnly: true,
+                    value: 'testuser',
                     width: 300,
                     style: {
                       color: "#000000",
